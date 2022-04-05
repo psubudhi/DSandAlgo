@@ -17,7 +17,7 @@ public class BubbleSortAlgo {
 
 				System.out.println("\n  i="+i+",j="+j);
 				System.out.println("\n"+arr[i]+","+arr[j]);
-				if(arr[i]>arr[j])
+				if(arr[i]<arr[j])
 				{
 					exch( arr, i, j);
 					printArr(arr);

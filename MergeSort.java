@@ -63,7 +63,7 @@ public class MergeSort {
 				result[resultCounter++]=right[rightCounter++];
 			}
 
-		}
+		} 
 		
 		return result;
 
